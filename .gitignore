@@ -1,8 +1,22 @@
-node_modules
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+yarn.lock
+package-lock.json
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
 .DS_Store
 .tmp
 tmp
 dist
 npm-debug.log*
-yarn.lock
 .vscode/launch.json
